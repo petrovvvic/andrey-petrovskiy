@@ -5,11 +5,12 @@
 *{
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    color: #130F49 !important;
 
 }
 
 body, html{
-    background-color: #EFFBF8;
+
     height: 2000px;
     scroll-behavior: smooth;
 
@@ -63,6 +64,11 @@ html::-webkit-scrollbar-thumb:hover {
     transition: all ease-out .8s;
 }
 
+.home{
+    height: 100vh;
+    background-color: #EFFBF8;
+}
+
 
 .navbar{
     position: sticky;
@@ -72,6 +78,7 @@ html::-webkit-scrollbar-thumb:hover {
     -moz-transition: all ease-out .8s;
     -o-transition: all ease-out .8s;
     transition: all ease-out .8s;
+    background: #EFFBF8;
 }
 
 .active {
@@ -90,8 +97,9 @@ html::-webkit-scrollbar-thumb:hover {
 }
 
 .img-container__img{
-    width: 85%;
-    height: 85%;    margin-top: 65px;
+    width: 91%;
+    height: 74%;   
+    margin-top: 65px;
 }
 
 .title-container__subtext{
@@ -104,7 +112,7 @@ html::-webkit-scrollbar-thumb:hover {
 }
 
 .buttons__btn{
-    color: #fff;
+
     background-color: #130F49;
     display: inline-block;
     border: 1.5px solid #130F49;
@@ -116,21 +124,22 @@ html::-webkit-scrollbar-thumb:hover {
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
+    color: #fff !important;
 }
 
 .buttons__btn:hover{
     background-color: transparent;
-    color: #130F49;
+    color: #130F49 !important;
 }
 .buttons__btn-2{
     background-color: transparent;
-    color: #130F49;
+    color: #130F49 !important;
     margin-left: 15px;
     padding: 13px 40px 13px 40px;
 }
 .buttons__btn-2:hover{
     background-color: #130F49;
-    color: #fff;
+    color: #fff !important;
 }
 
 .info-list__link{
@@ -149,5 +158,131 @@ html::-webkit-scrollbar-thumb:hover {
 
 }
 .title-container__info{
-    margin-top: 100px;
+    margin-top: 12rem;
+}
+
+.about{
+    background: #fff;
+}
+
+.title{
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 33px;
+}
+
+.subtitle{
+    width: 100%;
+float: left;
+font-weight: 500;
+text-transform: uppercase;
+}
+.text-container__job-name{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform:none;
+}
+
+.default-text{
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.info__category{
+    text-decoration: underline;
+}
+
+.info-list__link:hover{
+    color: #FF972D !important;
+}
+.under-category{
+    font-size: 16px !important;
+}
+
+.under-category{
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+.under-category .info-list__link{
+    font-size: 16px !important;
+}
+
+.block__text{
+    font-size: 30px;
+
+    
+}
+
+.about__block-container{
+    column-gap: 10px;
+}
+
+.block-1{
+    background-color: #D3F4EC;
+}
+.block-2{
+    background-color: #FCE8D4;
+}
+.block-3{
+    background-color: #E3F9E0;
+    margin-right: -30px;
+}
+
+.block-container__block{
+
+    border-radius: 4px;
+    padding: 45px 20px;
+}
+
+
+.portfolio{
+    background-color: #F3F9FF !important;
+
+}
+
+.portfolio__block{
+    padding: 40px;
+    background: #fff;
+    margin-bottom: 20px;
+    margin-right: -12px;
+    padding-bottom: 35px;
+}
+
+.portfolio__block-container{
+    column-gap: 20px;
+}
+
+.title__company{
+    font-size: 16px;
+    word-spacing: 0%;
+    font-weight: 500;
+    opacity: .7;
+    color: #55527C;
+}
+
+.description__text{
+    opacity: .7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+    .title-container__text{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    
 }
